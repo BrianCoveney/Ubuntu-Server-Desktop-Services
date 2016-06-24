@@ -11,7 +11,7 @@
 ##Table of Contents
 1. <a href="#1-openssh-server">OpenSSH Server</a>
 1. <a href="#20-ruby-on-rails">Ruby On Rails</a>
-1. <a href="#30color-the-bash-prompt">Color the Bash Prompt</a> 
+1. <a href="#30-colour-the-bash-prompt">Colour the Bash Prompt</a> 
 1. <a href="#40-dns-setup">DNS Setup</a>
 1. <a href="#50-print-server-setup">Print Server Setup</a>
 1. <a href="#60-security">Security</a>
