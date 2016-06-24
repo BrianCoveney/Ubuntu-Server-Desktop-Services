@@ -9,8 +9,13 @@
 ---
 
 ##Table of Contents
-1. OpenSSH Server
+1. <a href="#1-openssh-server">OpenSSH Server</a>
 1. <a href="#20-ruby-on-rails">Ruby On Rails</a>
+1. <a href="#30-change-the-colour-of-the-bash-prompt">Color the Bash Prompt</a> 
+1. <a href="#40-dns-setup">DNS Setup</a>
+1. <a href="#50-print-server-setup">Print Server Setup</a>
+1. <a href="#60-security">Security</a>
+1. <a href="#7-final-report---summary-and-conclusions">Summary & Conclusion</a>
 
 ---
 
@@ -305,7 +310,7 @@ Start the rails server: `bin/rails server –b 0.0.0.0`
 We can now launch our browser and type: `192.168.1.7:3000`
 
 ---
-### 3.0 Change the colour of the bash prompt
+### 3.0 Colour the bash prompt
 ---
 
 To distinguish the client from the server, we can customize the color of the prompts:
