@@ -659,3 +659,61 @@ through our system checking for security vulnerabilities.
 [2]: http://www.nano-editor.org/dist/v2.2/nano.html
 [3]: https://help.ubuntu.com/community/SSH/OpenSSH/Keys
 [4]: http://abload.de/img/bash-color-chartmxjbp.png
+
+---
+### 8. Extra: Install & Configure Jenkins CI
+---
+
+I'm starting from a freshly installed Ubuntu 16.04 Server, running on VMWare Workstation 12.
+
+First connect and login to the server through SSH
+
+`ssh-copy-id <username>@<host_ip>`
+`ssh <username>@<host_ip>`
+
+
+Then install the Oracle JDK
+
+```
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+```
+Manage Java (take not of the path)
+
+`sudo update-alternatives --config java`
+
+Set the JAVA_HOME Environment Variable
+
+`JAVA_HOME="/usr/lib/jvm/java-8-oracle"`
+
+Reload
+
+`source /etc/environment`
+
+Jenkins Install
+
+```
+wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update
+sudo apt-get install jenkins
+```
+Upgrage Jenkins
+
+```
+sudo apt-get update
+sudo apt-get install jenkins
+```
+Check that Jenkins is up and running 
+
+`service jenkins status`
+
+Finaly, to use and configure Jenkins, go to the following address in your browser
+
+http://<host_ip>:8080
+
+
+
+
+
