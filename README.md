@@ -16,7 +16,7 @@
 1. <a href="#50-print-server-setup">Print Server Setup</a>
 1. <a href="#60-security">Security</a>
 1. <a href="#7-final-report---summary-and-conclusions">Summary & Conclusion</a>
-1. <a href="#8. Extra: Install & Configure Jenkins CI">Install & Config Jenkins</a>
+1. <a href="#8-jenkins-continuous-integration-setup">Install & Config Jenkins</a>
 
 ---
 
@@ -662,7 +662,7 @@ through our system checking for security vulnerabilities.
 [4]: http://abload.de/img/bash-color-chartmxjbp.png
 
 ---
-### 8. Extra: Install & Configure Jenkins CI
+### 8. Jenkins Continuous Integration Setup
 ---
 
 I'm starting from a freshly installed Ubuntu 16.04 Server, running on VMWare Workstation 12.
