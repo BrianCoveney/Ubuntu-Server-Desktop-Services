@@ -16,6 +16,7 @@
 1. <a href="#50-print-server-setup">Print Server Setup</a>
 1. <a href="#60-security">Security</a>
 1. <a href="#7-final-report---summary-and-conclusions">Summary & Conclusion</a>
+1. <a href="#8. Extra: Install & Configure Jenkins CI">Install & Config Jenkins</a>
 
 ---
 
@@ -668,8 +669,8 @@ I'm starting from a freshly installed Ubuntu 16.04 Server, running on VMWare Wor
 
 First connect and login to the server through SSH
 
-`ssh-copy-id <username>@<host_ip>`
-`ssh <username>@<host_ip>`
+`ssh-copy-id <username>@<server_ip>`
+`ssh <username>@<server_ip>`
 
 
 Then install the Oracle JDK
@@ -711,7 +712,7 @@ Check that Jenkins is up and running
 
 Finaly, to use and configure Jenkins, go to the following address in your browser
 
-http://<host_ip>:8080
+server_ipaddress:8080
 
 
 
